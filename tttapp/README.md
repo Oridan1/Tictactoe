@@ -18,7 +18,7 @@ Body:
 }
 
 POST
-http://127.0.0.1:8000/tictactoe/submit-move/<ID>/
+http://127.0.0.1:8000/tictactoe/submit-move/ID/
 
 Body:
 {
@@ -31,10 +31,10 @@ GET
 http://127.0.0.1:8000/tictactoe/list-games
 
 GET
-http://127.0.0.1:8000/tictactoe/retrieve-game/<ID>
+http://127.0.0.1:8000/tictactoe/retrieve-game/ID
 
 DELETE
-http://127.0.0.1:8000/tictactoe/delete-game/<ID>/
+http://127.0.0.1:8000/tictactoe/delete-game/ID/
 
 
 
