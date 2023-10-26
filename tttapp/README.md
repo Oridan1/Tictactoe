@@ -1,6 +1,6 @@
 create a virtual enviroment and then run pip install requirements.txt
 
-to launch the server, run python tttapp/manage.py runserver
+to launch the server, run python manage.py runserver
 
 to test each end point, use insomnia, o postman with the following requests:
 
@@ -39,4 +39,4 @@ http://127.0.0.1:8000/tictactoe/delete-game/<ID>/
 
 
 To run automatic tests:
-python tttapp/manage.py test tictactoe
+python manage.py test tictactoe
